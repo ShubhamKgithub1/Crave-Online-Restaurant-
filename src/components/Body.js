@@ -2,7 +2,6 @@ import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import { withPromotedCard } from "./RestaurantCard";
 
 const Body = () => {
   const [listOfRestaurant, setlistOfRestaurant] = useState([]);

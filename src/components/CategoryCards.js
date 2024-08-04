@@ -29,7 +29,7 @@ const CategoryCards = ({ item }) => {
             />
             <button
               className="absolute border-0 px-3 rounded-md bg-black bottom-[-0.6rem] left-[1.2rem] cursor-pointer shadow-lg shadow-slate-400 hover:shadow-slate-500  transition-all transform hover:scale-[0.96] duration-200 text-white"
-              onClick={()=>handleAddItem(item)}
+              onClick={() => handleAddItem(item)}
             >
               Add
             </button>
