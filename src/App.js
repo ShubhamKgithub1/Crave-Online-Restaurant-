@@ -16,6 +16,7 @@ const AppLayout = () => {
     <Provider store={appStore}>
       <div className="app">
         <Header />
+
         <Outlet />
       </div>
     </Provider>
